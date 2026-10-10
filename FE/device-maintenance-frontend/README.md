@@ -1,3 +1,21 @@
+# device-maintenance-frontend
+
+Frontend quản lý bảo trì thiết bị (Create React App). File gốc được giữ nguyên; các thư mục bên dưới được bổ sung.
+
+- `public/`: file tĩnh (HTML, favicon, manifest)
+- `src/api/`: gọi API Spring Boot
+- `src/assets/`: ảnh, icon, CSS tĩnh
+- `src/components/`: component dùng lại (`common`, `layout`, `ui`)
+- `src/hooks/`: custom React hooks
+- `src/layouts/`: layout dùng chung
+- `src/pages/`: các trang giao diện
+- `src/routes/`: cấu hình định tuyến
+- `src/context/`: context dùng chung
+- `src/utils/`: hàm tiện ích
+- `src/App.js`: component gốc (tương đương App.jsx)
+- `src/index.js`: điểm vào ứng dụng (tương đương main.jsx)
+- `.env`: biến môi trường (URL backend)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

@@ -1,3 +1,6 @@
+// File gốc Create React App (tương đương main.jsx). Giữ nguyên, không xóa.
+// File này gắn ứng dụng React vào thẻ #root trong public/index.html.
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
